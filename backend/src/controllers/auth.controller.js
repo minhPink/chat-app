@@ -95,3 +95,5 @@ export const logoutController = (req, res) => {
   res.cookie("jwt", "", { CSSMathMaxAge: 0 });
   res.status(200).json({ message: "Logged out successfully." });
 };
+
+export const updateProfileController = async (req, res) => {};
